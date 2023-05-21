@@ -26,7 +26,7 @@ def show_anns(anns):
 
 
 if __name__ == "__main__":
-    image = cv2.imread('image.jpg')
+    image = cv2.imread('00000000.jpg')
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     plt.figure(figsize=(20, 20))
     plt.imshow(image)
